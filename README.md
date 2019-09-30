@@ -29,7 +29,7 @@
 13. From the documentation, copy the card components and place them in `App.js`:
 
         ```javascript
-        export default function App() {
+        function App() {
         return (
             <Container>
             <Header />
@@ -44,8 +44,8 @@
             </Content>
             </Container>
         );
-
         }
+        export default App;
 
         ```
 
