@@ -28,28 +28,26 @@
 
 13. From the documentation, copy the card components and place them in `App.js`:
 
-            ```javascript
-            export default function App() {
-            return (
-                <Container>
-                <Header />
-                <Content>
-                    <Card>
-                    <CardItem>
-                        <Body>
-                        <Text>//Your text here</Text>
-                        </Body>
-                    </CardItem>
-                    </Card>
-                </Content>
-                </Container>
-            );
+        ```javascript
+        export default function App() {
+        return (
+            <Container>
+            <Header />
+            <Content>
+                <Card>
+                <CardItem>
+                    <Body>
+                    <Text>//Your text here</Text>
+                    </Body>
+                </CardItem>
+                </Card>
+            </Content>
+            </Container>
+        );
 
-    }
+        }
 
-    ```
-
-    ```
+        ```
 
 14. An error should occur. That is because we have not imported the NativeBase components! In `App.js`:
 
