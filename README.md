@@ -101,7 +101,9 @@
     https://expo.github.io/vector-icons/
     
  Somewhere in `App.js`, add:
-    ```jsx
+ 
+```
+jsx
     <Icon type="FontAwesome" name="home" />
-    ```
+```
     
