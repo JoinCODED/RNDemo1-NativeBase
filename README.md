@@ -100,7 +100,7 @@
     https://oblador.github.io/react-native-vector-icons/
     https://expo.github.io/vector-icons/
     
-    Somewhere in `App.js`, add:
+ Somewhere in `App.js`, add:
     ```jsx
     <Icon type="FontAwesome" name="home" />
     ```
