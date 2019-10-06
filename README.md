@@ -95,12 +95,13 @@
     export default App;
     ```
     
-    17. Show how to use Icons
+ 17. Show how to use Icons
     These are the resources to use
     https://oblador.github.io/react-native-vector-icons/
     https://expo.github.io/vector-icons/
     
     Somewhere in `App.js`, add:
-    
+    ```jsx
     <Icon type="FontAwesome" name="home" />
+    ```
     
