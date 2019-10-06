@@ -103,7 +103,6 @@
  Somewhere in `App.js`, add:
  
 ```
-jsx
     <Icon type="FontAwesome" name="home" />
 ```
     
