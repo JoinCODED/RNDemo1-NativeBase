@@ -1,5 +1,4 @@
 import React from "react";
-import { StyleSheet, View } from "react-native";
 import {
   Container,
   Header,
@@ -7,10 +6,11 @@ import {
   Card,
   CardItem,
   Body,
-  Text
+  Text,
+  Icon
 } from "native-base";
 
-function App() {
+export default function App() {
   return (
     <Container>
       <Header />
@@ -27,6 +27,7 @@ function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Text>
+              <Icon type="FontAwesome" name="home" />
             </Body>
           </CardItem>
         </Card>
@@ -34,4 +35,3 @@ function App() {
     </Container>
   );
 }
-export default App;
