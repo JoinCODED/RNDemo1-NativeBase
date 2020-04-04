@@ -7,7 +7,7 @@ import {
   CardItem,
   Body,
   Text,
-  Icon
+  Icon,
 } from "native-base";
 
 export default function App() {
@@ -27,7 +27,7 @@ export default function App() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Text>
-              <Icon type="FontAwesome" name="home" />
+              <Icon type="FontAwesome5" name="home" />
             </Body>
           </CardItem>
         </Card>
