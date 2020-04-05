@@ -9,6 +9,9 @@
     yarn global add expo-cli
     ```
 2.  Install the react native debugger [here](https://github.com/jhen0409/react-native-debugger/releases/tag/v0.10.7)
+3.  Install `Expo` on your phones
+4.  Install [XCode](https://docs.expo.io/versions/v37.0.0/workflow/ios-simulator/) if you're on Mac
+5.  Install [android studio](https://docs.expo.io/versions/latest/workflow/android-studio-emulator/) if you're on PC
 
 # Create an application
 
