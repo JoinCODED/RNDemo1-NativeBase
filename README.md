@@ -28,13 +28,14 @@
 2.  Explore the Metro Bundler
 3.  Run the app using the `Expo` mobile application by scanning the barcode.
 4.  Run the app on the Xcode iPhone simulator (clicking `i` in the terminal or the `Run iOS Simulator` in the Metro Bundler window).
-5.  Change the text inide the `<Text> </Text>` of `App.js` to anything else. The simulator responds and updates instantly.
-6.  `export default App()` and having `export default App` at the bottom are equivalent.
-7.  The components being imported from `react-native` in `App.js`. These are great, but we can do better using [NativeBase](https://nativebase.io/). Show them a few components from the documentation.
+5.  Connect the app to the debugger
+6.  Change the text inide the `<Text> </Text>` of `App.js` to anything else. The simulator responds and updates instantly.
+7.  `export default App()` and having `export default App` at the bottom are equivalent.
+8.  The components being imported from `react-native` in `App.js`. These are great, but we can do better using [NativeBase](https://nativebase.io/). Show them a few components from the documentation.
 
 # Native Base
 
-1. Set up NativeBase (until the vector icons issue is resolved):
+1. Set up NativeBase (use version 2.13.8 until the vector icons issue is resolved):
    ```bash
    yarn add -E native-base@2.13.8
    ```
