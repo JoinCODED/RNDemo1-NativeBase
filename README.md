@@ -112,52 +112,53 @@
 5.  Another error should occur. READ the error out loud and try to figure it out. This time, it's because we are importing the `Text` component from both `native-base` and `react-native`. Stick to the one from `NativeBase`.
 6.  Change the `//Heading //Subheading and //Description `.
 
-    ```jsx
-    function App() {
-      return (
-        <Box rounded="lg" overflow="hidden" width="72" shadow={1}>
-          <Box>
-            <AspectRatio ratio={16 / 9}>
-              <Image
-                source={{
-                  uri: 'https://www.techinafrica.com/wp-content/uploads/2019/07/carles-rabada-635097-unsplash-compressor.jpg',
-                }}
-                alt="image"
-              />
-            </AspectRatio>
-            <Center
-              bg="violet.500"
-              _text={{ color: 'white', fontWeight: '700', fontSize: 'xs' }}
-              position="absolute"
-              bottom={0}
-              px="3"
-              py="1.5"
-            >
-              PHOTOS
-            </Center>
-          </Box>
-          <Stack p="4" space={3}>
-            <Stack space={2}>
-              <Heading size="md" ml="-1">
-                The Silicon Valley
-              </Heading>
-              <Text fontSize="xs" fontWeight="500" ml="-0.5" mt="-1">
-                The global center for high technology and innovation.
-              </Text>
-            </Stack>
-            <Text fontWeight="400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Text>
-          </Stack>
-        </Box>
-      );
-    }
-    export default App;
-    ```
-"# RNDemo1-NativeBase-2021" 
+        ```jsx
+        function App() {
+          return (
+            <Box rounded="lg" overflow="hidden" width="72" shadow={1}>
+              <Box>
+                <AspectRatio ratio={16 / 9}>
+                  <Image
+                    source={{
+                      uri: 'https://www.techinafrica.com/wp-content/uploads/2019/07/carles-rabada-635097-unsplash-compressor.jpg',
+                    }}
+                    alt="image"
+                  />
+                </AspectRatio>
+                <Center
+                  bg="violet.500"
+                  _text={{ color: 'white', fontWeight: '700', fontSize: 'xs' }}
+                  position="absolute"
+                  bottom={0}
+                  px="3"
+                  py="1.5"
+                >
+                  PHOTOS
+                </Center>
+              </Box>
+              <Stack p="4" space={3}>
+                <Stack space={2}>
+                  <Heading size="md" ml="-1">
+                    The Silicon Valley
+                  </Heading>
+                  <Text fontSize="xs" fontWeight="500" ml="-0.5" mt="-1">
+                    The global center for high technology and innovation.
+                  </Text>
+                </Stack>
+                <Text fontWeight="400">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                  nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </Text>
+              </Stack>
+            </Box>
+          );
+        }
+        export default App;
+        ```
+
+    "# RNDemo1-NativeBase-2021"
